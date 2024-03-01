@@ -1,14 +1,25 @@
 ﻿  MedianOfArrays.cpp
-C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(151,135): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(151,112): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(152,133): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(152,110): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(153,145): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(153,119): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(154,143): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(154,117): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(152,135): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(152,112): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(153,133): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(153,110): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(154,145): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(154,119): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(155,143): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(155,117): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(193,76): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(193,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(196,80): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(196,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(262,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(266,34): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(266,34): warning C4244:         with
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(266,34): warning C4244:         [
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(266,34): warning C4244:             _Ty=int
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(266,34): warning C4244:         ]
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(268,34): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(268,34): warning C4244:         with
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(268,34): warning C4244:         [
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(268,34): warning C4244:             _Ty=int
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(268,34): warning C4244:         ]
   MedianOfArrays.vcxproj -> C:\Users\zackd\source\repos\MedianOfArrays\x64\Debug\MedianOfArrays.exe

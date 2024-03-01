@@ -5,6 +5,7 @@
 #include <set>
 #include <iostream>
 #include <cassert>
+#include<chrono>
 
 // Holds relevant information about how close a number is to being the median.
 class MiddleElement {
@@ -161,7 +162,6 @@ MedianSearchResult findMedianInArray(std::vector<int>* arrayToSearch, int search
     // larger, this is the median. Otherwise, perform another step of the binary search.
     if (lessThanSum == greaterThanSum) {
         return MedianSearchResult{ true, *indexValue };
-        std::cout << *indexValue << "\n";
     }
     else {
         // Our current number is too high, search the lower half of the array.
@@ -214,7 +214,9 @@ double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2) 
                 std::cout << "Incorrect middle pair error!" << "\n";
                 return -1;
             }
-            return (*middlePair.element1.pValue + *middlePair.element2.pValue) / 2.0;
+            double median = (*middlePair.element1.pValue + *middlePair.element2.pValue) / 2.0;
+            std::cout << "median: " << median << "\n";
+            return median;
         }
     }
     return -1;
@@ -245,17 +247,31 @@ void testCases() {
     testVec2 = std::vector<int>{ 13 };
     assert(findMedianSortedArrays(testVec1, testVec2) == 13);
 
+    testVec1 = std::vector<int>{98,99};
+    testVec2 = std::vector<int>{ };
+    assert(findMedianSortedArrays(testVec1, testVec2) == 98.5);
+
+    testVec1 = std::vector<int>{ -1,2,3 };
+    testVec2 = std::vector<int>{ -1,2,3 };
+    assert(findMedianSortedArrays(testVec1, testVec2) == 2);
+
+    // Test Large Arrays
     testVec1 = std::vector<int>{};
     testVec2 = std::vector<int>{};
-    for (int i = 0; i < 100000; i++) {
-        testVec1.push_back(i * 2.79382);
+    double coefficient = 2.784915632;
+    int medianAssert = (100000001 / 2) * coefficient;
+    for (int i = 0; i < 100000001; i++) {
+        int randomArrayToAddTo = rand() % 2;
+        if (randomArrayToAddTo == 0)
+            testVec1.push_back(i * coefficient);
+        else
+            testVec2.push_back(i * coefficient);
     }
-    for (int i = 0; i < 999999; i++) {
-        testVec2.push_back(i * 7.79382);
-    }
-
-    testVec1 = std::vector<int>{ };
-    testVec2 = std::vector<int>{ 13 };
+    auto start = std::chrono::high_resolution_clock::now();
+    assert(findMedianSortedArrays(testVec1, testVec2) == medianAssert);
+    auto stop = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start);
+    std::cout << "Completed large median sort in " << duration.count()*1e-9 << " seconds" << "\n";
 }
 
 int main()
