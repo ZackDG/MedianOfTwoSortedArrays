@@ -1,0 +1,14 @@
+﻿  MedianOfArrays.cpp
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(151,135): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(151,112): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(152,133): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(152,110): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(153,145): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(153,119): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(154,143): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(154,117): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(193,76): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(193,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(196,80): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zackd\source\repos\MedianOfArrays\MedianOfArrays\MedianOfArrays.cpp(196,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  MedianOfArrays.vcxproj -> C:\Users\zackd\source\repos\MedianOfArrays\x64\Debug\MedianOfArrays.exe
